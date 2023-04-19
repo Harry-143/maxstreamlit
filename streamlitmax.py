@@ -16,7 +16,6 @@ def user_input_features():
 numbers = user_input_features()
 res = max(numbers)
 
-st.container("Voila!")
 if st.button('Find Largest Number'):
     st.write("Result : the largest of the 3 numbers is ")
     st.write(res)
